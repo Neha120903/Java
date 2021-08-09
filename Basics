@@ -1,0 +1,29 @@
+package Basics;
+import java.util.Scanner;
+
+public class swappingTwoNumbers {
+	public static void main(String args[]) {
+		System.out.println("Enetr the values of n1 and n2");
+		Scanner obj = new Scanner(System.in);
+		
+		int n1 = obj.nextInt();
+		int n2 = obj.nextInt();
+		int t ;
+		//using a third variable
+		t= n1;
+		n1=n2;
+		n2=t;
+		//without third variable
+		n1=n1+n2;
+		n2=n1-n2;
+		n1=n1-n2;
+		//bitwise operator
+		n1= n1^n2;
+		n2=n1^n2;
+		n1=n1 ^n2;
+		
+		System.out.println("Value of n1 after swaapping : "+ n1);
+		System.out.println("Value of n2 after swapping : "+n2);
+	}
+
+}
