@@ -1,3 +1,7 @@
+/*store colours in the form of an array
+ex: String colours[]={"white","blue","black","green","red","yellow"};
+display all colours repeatedly by generating colour index from Random class. If the random colour index matches to red stop display.
+Note: perform this task by implementing Runnabe interface*/
 package Thread;
 class random implements Runnable
 {
