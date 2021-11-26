@@ -1,3 +1,4 @@
+/*Create two threads and assign names ‘Scooby’ and ‘Shaggy’ to the two threads. Display both thread names.*/
 package Thread;
 public class t1 {
 	public static void main(String[] args)
